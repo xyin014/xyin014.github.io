@@ -1,4 +1,4 @@
-#baseurl = "https://www.cs.ucr.edu/~xyin014/"
+#baseurl = "/"
 languageCode = "en-us"
 title = "Xizhe Yin @ UCR"
 theme = "hugo-classic"
@@ -7,7 +7,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 
-canonifyURLs = false
+canonifyURLs = true
 relativeURLs = true
 
 [permalinks]

@@ -1,6 +1,5 @@
 ---
 title: Misc
-url: /misc/
 ---
 
 <img
