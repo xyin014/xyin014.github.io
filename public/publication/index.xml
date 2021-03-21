@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Xizhe Yin @ UCR</title>
+    <title>Publication on Xizhe Yin @ UCR</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on Xizhe Yin @ UCR</description>
+    <description>Recent content in Publication on Xizhe Yin @ UCR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Publication</title>
-      <link>/publication/publication/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/publication/</guid>
-      <description>Publication </description>
-    </item>
-    
   </channel>
 </rss>

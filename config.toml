@@ -1,4 +1,4 @@
-#baseurl = "/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Xizhe Yin @ UCR"
 theme = "hugo-classic"
@@ -7,8 +7,8 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 
-canonifyURLs = false
-relativeURLs = true
+#canonifyURLs = false
+#relativeURLs = true
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
