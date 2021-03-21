@@ -10,8 +10,8 @@ footnotereturnlinkcontents = "↩"
 canonifyURLs = false
 relativeURLs = true
 
-#[permalinks]
-#    post = "/post/:year/:month/:day/:slug/"
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
 
 [[menu.main]]
     name = "Publication"
