@@ -8,7 +8,7 @@ enableEmoji = true
 footnotereturnlinkcontents = "↩"
 
 canonifyURLs = true
-relativeURLs = true
+#relativeURLs = true
 
 [permalinks]
     post = "/post/:year/:month/:day/:slug/"
