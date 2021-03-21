@@ -3,9 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>/categories/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>/categories/example/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/markdown/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/2018-08-30-markdown-guide/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/bullhorn/</loc>
+    <lastmod>2012-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/hacker-with-horn/</loc>
+    <lastmod>2012-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/blog/</loc>
+    <lastmod>2012-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/2015-07-23-command-line-awesomeness/</loc>
+    <lastmod>2012-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/html/</loc>
+    <lastmod>2012-03-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/code/</loc>
+    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/juicy/</loc>
+    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/post/juicy-code/</loc>
+    <lastmod>2012-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/misc/</loc>
+  </url><url>
+    <loc>/publication/</loc>
   </url>
 </urlset>

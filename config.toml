@@ -1,8 +1,39 @@
-#baseURL = "https://www.cs.ucr.edu/~xyin014/"
+#baseurl = "/"
 languageCode = "en-us"
-title = "Xizhe Yin@UCR"
-
-theme = "cactus"
+title = "Xizhe Yin @ UCR"
+theme = "hugo-classic"
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
 
 canonifyURLs = false
 relativeURLs = true
+
+#[permalinks]
+#    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Publication"
+    url = "/publication"
+    weight = 1
+[[menu.main]]
+    name = "Misc"
+    url = "/misc"
+    weight = 2
+
+[[menu.feed]]
+    name = "About"
+    url = "/about"
+
+[params]
+    description = "A simple, minimal blog for those who love text."
+    footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Keybase](https://keybase.io/goodroot)"
+    custom_css = ["css/theme-override.css"]
+
+# If you want to use Fathom (https://usefathom.com) for analytics, add this section
+[params.fathomAnalytics]
+    siteID = "ABCDE"
+    # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
+    serverURL = "analytics.example.com"
+
