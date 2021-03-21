@@ -1,5 +1,6 @@
 ---
 title: Publication
+url: /publication/
 ---
 
 <img

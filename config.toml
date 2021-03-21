@@ -7,7 +7,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 enableEmoji = true
 footnotereturnlinkcontents = "↩"
 
-#canonifyURLs = false
+canonifyURLs = false
 relativeURLs = true
 
 [permalinks]
