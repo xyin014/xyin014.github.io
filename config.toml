@@ -1,4 +1,4 @@
-baseurl = "https://www.cs.ucr.edu/"
+#baseurl = "https://www.cs.ucr.edu/~xyin014/"
 languageCode = "en-us"
 title = "Xizhe Yin @ UCR"
 theme = "hugo-classic"
