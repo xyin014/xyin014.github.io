@@ -15,7 +15,7 @@ title: Publication and project
     Interestingly, we found that similar principles can also be derived for 
     a spectrum of vertex-specific graph problems.
     ~~~
-1. Griffin, Jeremiah, Mohsen Lesani, Narges Shadab, and Xizhe Yin: **TLC: temporal logic of distributed components**, ICFP'20, August 2020. [[DOI](https://doi.org/10.1145/3409005)]
+1. Jeremiah Griffin, Mohsen Lesani, Narges Shadab, and Xizhe Yin: **TLC: temporal logic of distributed components**, ICFP'20, August 2020. [[DOI](https://doi.org/10.1145/3409005)]
     ~~~
     TLC (Temporal Logic of Components) is a temporal program logic that 
     offers inference rules for verification of both safety and liveness properties 
