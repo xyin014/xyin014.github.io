@@ -28,5 +28,27 @@ canonifyURLs = true
 
 [params]
     description = "A simple, minimal blog for those who love text."
-    footer = "Open-Source | [Github](https://github.com/goodroot/hugo-classic) | [Keybase](https://keybase.io/goodroot)"
+    footer = "The mountains are calling and i must go | [Github](https://github.com/xyin014) | [LinkedIn](https://www.linkedin.com/in/xizhe-yin/) | [Google Scholar](https://scholar.google.com/)"
     custom_css = ["css/theme-override.css"]
+    
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false

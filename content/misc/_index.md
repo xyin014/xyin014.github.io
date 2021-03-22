@@ -2,9 +2,6 @@
 title: Misc
 ---
 
-<img
-  id="main-image"
-  src="/images/partywizard.gif"
-  alt="Kellen Face">
-<!-- <img src="/images/partywizard.gif" style="max-width:15%;min-width:40px;float:right;" alt="Github repo" />(https://github.com/goodroot/hugo-classic) -->
+*Inspired by a lot of others, I plan to use this place to list (non-exhaustive):
+books I have read, trails that I have finished, and financial derivatives that I have sold.*
 
