@@ -33,7 +33,7 @@ developing scalable high-performance solutions for graph processing systems.
 
 ### Publication and project
 1. Xiaolin Jiang, Chengshuo Xu, Xizhe Yin, Zhijia Zhao, and Rajiv Gupta: **Tripoline: Generalized Incremental Graph Processing via Graph Triangle Inequality**, EuroSys'21, [to appear].
-1. Griffin, Jeremiah, Mohsen Lesani, Narges Shadab, and Xizhe Yin: **TLC: temporal logic of distributed components**, ICFP'20, August 2020. [[DOI](https://doi.org/10.1145/3409005)]
+1. Jeremiah Griffin, Mohsen Lesani, Narges Shadab, and Xizhe Yin: **TLC: temporal logic of distributed components**, ICFP'20, August 2020. [[DOI](https://doi.org/10.1145/3409005)]
 
 \>\> Read more: [[~/publication]]({{< ref "/publication" >}})
 
