@@ -3,4 +3,7 @@
 	url = https://github.com/monkeyWzr/hugo-theme-cactus.git
 [submodule "themes/hugo-classic"]
 	path = themes/hugo-classic
-	url = https://github.com/goodroot/hugo-classic.git
+	url = https://github.com/xyin014/hugo-classic.git
+[submodule "themes/hugo-classic-modified"]
+	path = themes/hugo-classic-modified
+	url = https://github.com/xyin014/hugo-classic-modified.git
