@@ -7,12 +7,11 @@ title: Publications
 
 <!-- ## Publication -->
 1. Xizhe Yin, Zhijia Zhao, and Rajiv Gupta. *Glign: Taming Misaligned Graph Traversals in Concur-
-rent Graph Processing*. In Proceedings of the 28th ACM International Conference on Architectural Sup-
-port for Programming Languages and Operating Systems, 2023.
+rent Graph Processing*. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2023.
 
 1. Xiaolin Jiang*, Chengshuo Xu*, Xizhe Yin*, Zhijia Zhao, and Rajiv Gupta. *Tripoline: generalized in-
 cremental graph processing via graph triangle inequality*. In Proceedings of the Sixteenth European
-Conference on Computer Systems, 2021. (* co-primary) 
+Conference on Computer Systems (EuroSys), 2021. (* co-primary) 
 
 1. Jeremiah Griﬀin, Mohsen Lesani, Narges Shadab, and Xizhe Yin. *Tlc: temporal logic of distributed
 components*. In Proceedings of the ACM on Programming Languages, 4(ICFP):1–30, 2020.
