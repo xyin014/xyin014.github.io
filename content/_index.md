@@ -19,7 +19,7 @@ Email: xyin014@ucr.edu
 ### Biography
 I received my Ph.D. in Computer Science from the University of California, Riverside. 
 am advised by Prof. [Rajiv Gupta](https://www.cs.ucr.edu/~gupta/) and Prof. [Zhijia Zhao](https://www.cs.ucr.edu/~zhijia/).
-My research interests are in Computer Systems, Parallel/High-Performance Computing}, and Compiler Optimization.
+My research interests are in Computer Systems, Parallel/High-Performance Computing, and Compiler Optimization.
 
 My research has involved (i) building scalable graph systems for streaming and evolving graphs, (ii) designing algorithms for incremental graph computation and concurrent query evaluation, and (iii) developing graph-based methods for approximate nearest neighbor search (ANNS) on CPU and GPU platforms.
 
