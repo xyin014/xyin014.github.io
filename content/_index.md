@@ -9,7 +9,7 @@ title: Home
    -->
 <!-- ![profile image](/images/partywizard.gif#floatright "An exemplary image") -->
 
-## Xizhe Yin @ UCR CSE
+## Xizhe Yin
 
 Department of Computer Science and Engineering \
 University of California, Riverside
