@@ -17,33 +17,22 @@ University of California, Riverside
 Email: xyin014@ucr.edu
 
 ### Biography
-I am advised by Prof. [Rajiv Gupta](https://www.cs.ucr.edu/~gupta/) and Prof. [Zhijia Zhao](https://www.cs.ucr.edu/~zhijia/).
-My research and project experiences are in the areas of programming languages and software engineering. My current research focuses on 
-developing scalable high-performance solutions for graph processing systems.
+I received my Ph.D. in Computer Science from the University of California, Riverside. 
+am advised by Prof. [Rajiv Gupta](https://www.cs.ucr.edu/~gupta/) and Prof. [Zhijia Zhao](https://www.cs.ucr.edu/~zhijia/).
+My research interests are in Computer Systems, Parallel/High-Performance Computing}, and Compiler Optimization.
+
+My research has involved (i) building scalable graph systems for streaming and evolving graphs, (ii) designing algorithms for incremental graph computation and concurrent query evaluation, and (iii) developing graph-based methods for approximate nearest neighbor search (ANNS) on CPU and GPU platforms.
 
 
 #### Education
-- Ph.D. in Computer Science, University of California, Riverside, 2018 - Present
+- Ph.D. in Computer Science, University of California, Riverside, 2018 - 2024
 - M.S. in Electrical and Computer Engineering, University of Western Ontario, 2014 - 2017
 - B.E. in Electrical Engineering, University of Science and Technology of China, 2010 - 2014
 
----
-
-> Recent News
-
-### Publication and project
-1. Xiaolin Jiang, Chengshuo Xu, Xizhe Yin, Zhijia Zhao, and Rajiv Gupta: **Tripoline: Generalized Incremental Graph Processing via Graph Triangle Inequality**, EuroSys'21, [to appear].
-1. Jeremiah Griffin, Mohsen Lesani, Narges Shadab, and Xizhe Yin: **TLC: temporal logic of distributed components**, ICFP'20, August 2020. [[DOI](https://doi.org/10.1145/3409005)]
-
-\>\> Read more: [[~/publication]]({{< ref "/publication" >}})
-
----
-
-### Teaching
-*CS 238 - Algorithmic Techniques in Computational Biology*, Spring'20, TA \
-*CS 014 - Introduction To Data Structures And Algorithms*, Spring'20, TA \
-*CS 160 - Concurrent Programming and Parallel Systems*, Fall'19, TA
-
+#### Honors and Awards
+- 2024 Dissertation Completion Fellowship, University of California, Riverside
+- 2023 Dissertation Year Program Fellowship, University of California, Riverside
+- 2018 Dean’s Distinguished Fellowship, University of California, Riverside
 
 <!-- ~~~ruby
 def word_up(value)

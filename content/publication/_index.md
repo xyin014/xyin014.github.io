@@ -1,34 +1,35 @@
 ---
-title: Publication and project
+title: Publications
 
 ---
 
-</br>
+<!-- </br> -->
 
-## Publication
-1. Xiaolin Jiang, Chengshuo Xu, Xizhe Yin, Zhijia Zhao, and Rajiv Gupta: **Tripoline: Generalized Incremental Graph Processing via Graph Triangle Inequality**, EuroSys'21, [to appear]
-    ~~~
-    This work presents a principled solution to generalizing the incremental graph processing,
-    such that queries, without their a priori knowledge, can also be evaluated incrementally. 
-    The solution centers around the concept of graph triangle inequalities, 
-    an idea inspired by the classical triangle inequality principle in the Euclidean space.
-    Interestingly, we found that similar principles can also be derived for 
-    a spectrum of vertex-specific graph problems.
-    ~~~
-1. Jeremiah Griffin, Mohsen Lesani, Narges Shadab, and Xizhe Yin: **TLC: temporal logic of distributed components**, ICFP'20, August 2020. [[DOI](https://doi.org/10.1145/3409005)]
-    ~~~
-    TLC (Temporal Logic of Components) is a temporal program logic that 
-    offers inference rules for verification of both safety and liveness properties 
-    of functional implementations of distributed components. 
-    To support compositional reasoning, transformations on the assertion language are 
-    defined that can lower the specification of a component to be used as a subcomponent. 
-    The stubborn link and the perfect link components are 
-    mechanically verified in Coq proof assistant.
-    ~~~
+<!-- ## Publication -->
+1. Xizhe Yin, Zhijia Zhao, and Rajiv Gupta. *Glign: Taming Misaligned Graph Traversals in Concur-
+rent Graph Processing*. In Proceedings of the 28th ACM International Conference on Architectural Sup-
+port for Programming Languages and Operating Systems, 2023.
+
+1. Xiaolin Jiang*, Chengshuo Xu*, Xizhe Yin*, Zhijia Zhao, and Rajiv Gupta. *Tripoline: generalized in-
+cremental graph processing via graph triangle inequality*. In Proceedings of the Sixteenth European
+Conference on Computer Systems, 2021. (* co-primary) 
+
+1. Jeremiah Griﬀin, Mohsen Lesani, Narges Shadab, and Xizhe Yin. *Tlc: temporal logic of distributed
+components*. In Proceedings of the ACM on Programming Languages, 4(ICFP):1–30, 2020.
+
+1. Xizhe Yin, Gary Shen, Xianbin Wang, and Weiming Shen. *Mitigating sensor differences for phone-
+based human activity recognition*. In IEEE International Conference on Systems, Man, and Cyber-
+netics (SMC), 2016.
+
+1. Xizhe Yin, Xianbin Wang, and Weiming Shen. *Incremental clustering for human activity detec-
+tion based on phone sensor data*. In IEEE 20th International Conference on Computer Supported
+Cooperative Work in Design (CSCWD), 2016.
+
+1. Xizhe Yin, Weiming Shen, Jagath Samarabandu, Xianbin Wang. *Human activity detection based
+on multiple smart phone sensors and machine learning algorithms*. In IEEE 19th International
+Conference on Computer Supported Cooperative Work in Design (CSCWD), 2015.
+
+
+
 <!-- {{< highlight go >}} A bunch of code here {{< /highlight >}} -->
 
-
-## Project
-In the past I was involved in projects in the areas of programming languages and software engineering that cross different domains:
-from distributed to shared memory systems; from software verification to high-performance graph processing. 
-I plan to add more details to those interesting projects in the future.

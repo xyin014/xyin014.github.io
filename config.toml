@@ -1,4 +1,4 @@
-baseurl = "https://www.cs.ucr.edu/~xyin014/"
+baseurl = "https://xyin014.github.io/"
 languageCode = "en-us"
 title = "Xizhe Yin @ UCR"
 theme = "hugo-classic"
@@ -27,8 +27,8 @@ canonifyURLs = true
     url = "/about"
 
 [params]
-    description = "A simple, minimal blog for those who love text."
-    footer = "The mountains are calling and i must go | [Github](https://github.com/xyin014) | [LinkedIn](https://www.linkedin.com/in/xizhe-yin/) | [Google Scholar](https://scholar.google.com/)"
+    description = "."
+    footer = "The mountains are calling and i must go | [Github](https://github.com/xyin014) | [LinkedIn](https://www.linkedin.com/in/xizhe-yin/) | [Google Scholar](https://scholar.google.com/citations?user=jaRxg3EAAAAJ&hl=en)"
     custom_css = ["css/theme-override.css"]
     
 
