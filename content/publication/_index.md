@@ -6,6 +6,10 @@ title: Publications
 <!-- </br> -->
 
 <!-- ## Publication -->
+1. Xizhe Yin, Chao Gao, Zhijia Zhao, and Rajiv Gupta. *Enhancing Graph-based Approximate Nearest Neighbor Search through Recency-aware Construction and Parameterized Search*. In Proceedings of the ACM SIGPLAN Symposium on Principles and Practice of Parallel Programming (PPoPP), March 2025.
+
+1. Xizhe Yin, Zhijia Zhao, and Rajiv Gupta. *IncBoost: Scaling Incremental Graph Processing for Edge Deletions and Weight Updates*. In Proceedings of the ACM Symposium on Cloud Computing (ACM SoCC), November 2024.
+
 1. Xizhe Yin, Zhijia Zhao, and Rajiv Gupta. *Glign: Taming Misaligned Graph Traversals in Concur-
 rent Graph Processing*. In Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS), 2023.
 
