@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Xizhe Yin</title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/typography.css">
+  <link rel="stylesheet" href="../css/grid.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <div class="fib-wrapper" data-banner="about">
+
+    <nav class="nav">
+      <div class="nav-brand"><a href="../">Xizhe Yin</a></div>
+      <div class="nav-links">
+        <a href="../publication/">Publications</a>
+        <a href="../services/">Services</a>
+        <a href="../misc/">Misc</a>
+      </div>
+      <div class="nav-end">
+        <a href="../about/" class="active">About</a>
+      </div>
+      <button class="nav-hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="nav-mobile">
+      <a href="../">Home</a>
+      <a href="../publication/">Publications</a>
+      <a href="../services/">Services</a>
+      <a href="../misc/">Misc</a>
+      <a href="../about/" class="active">About</a>
+    </div>
+
+    <hr class="golden-bands">
+
+    <div class="fib-two-col" data-page="about">
+      <main class="about-main">
+        <h1>About</h1>
+
+        <section class="section">
+          <p>
+            This site is built with plain HTML and CSS, structured using
+            <a href="https://people.idsia.ch/~juergen/fibonacciwebdesign.html">Fibonacci Web Design</a>
+            principles &mdash; golden ratio proportions applied recursively to layout,
+            typography, and spacing.
+          </p>
+          <p>
+            All measurements derive from the Fibonacci sequence with a base unit of 2px:
+            2, 4, 6, 10, 16, 26, 42, 68, 110, 178, 288, 466, 754.
+            The two-column home layout uses a 466/288 split, where 288/466 &asymp; 0.618 = &phi;.
+            See the <a href="../fibonacci-design.md">design spec</a> for details.
+          </p>
+        </section>
+      </main>
+
+      <aside class="about-aside">
+        <figcaption class="aside-caption">
+          M.C. Escher, <em>Tower of Babel</em> (1928)<br>
+          &copy; The M.C. Escher Company B.V.
+        </figcaption>
+      </aside>
+    </div>
+
+    <footer class="footer"></footer>
+
+  </div>
+
+  <script src="../js/nav.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMQKKVCNWC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-EMQKKVCNWC');
+  </script>
+</body>
+</html>

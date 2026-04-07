@@ -1,0 +1,66 @@
+:root {
+  /* Fibonacci sequence (base 2px) */
+  --fib-1: 2px;
+  --fib-2: 4px;
+  --fib-3: 6px;
+  --fib-4: 10px;
+  --fib-5: 16px;
+  --fib-6: 26px;
+  --fib-7: 42px;
+  --fib-8: 68px;
+  --fib-9: 110px;
+  --fib-10: 178px;
+  --fib-11: 288px;
+  --fib-12: 466px;
+  --fib-13: 754px;
+  --fib-14: 1220px;
+
+  /* Layout */
+  --content-width: 754px;
+  --col-main: 466px;
+  --col-side: 288px;
+  --col-gap: 0px;  /* Schmidhuber: no gap; sidebar border provides separation */
+
+  /* Colors — golden angle rotation (137.5deg hue steps)
+     Primary 262° → Accent 39.5° → Teal 177° */
+  --color-primary: #613DC1;       /* HSL(262, 52%, 50%) */
+  --color-accent: #C1953D;        /* HSL(39.5, 52%, 50%) — exact golden angle */
+  --color-teal: #3DC1BB;          /* HSL(177, 52%, 50%) */
+  --color-tertiary: var(--color-text);  /* near-black #1A1A2E — text-link color */
+  --color-bg: #FAFAF8;            /* warm off-white */
+  --color-surface: #F3F2EE;       /* cards, hover states */
+  --color-text: #1A1A2E;          /* near-black, purple undertone */
+  --color-muted: #6B6B80;         /* secondary text */
+  --color-border: #DDD9D0;        /* structural borders */
+  --color-white: #ffffff;
+
+  /* Nav tab colors — sampled from golden-bands gradient at each tab's center */
+  --color-nav-1: #BF953E;          /* Publications at 62.2% */
+  --color-nav-2: #8AA771;          /* Services at 77.6% */
+  --color-nav-3: #65B394;          /* Misc at 88.2% */
+  --color-nav-4: #47BDB1;          /* About at 97.0% */
+
+  /* Typography */
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+
+  /* Fibonacci type scale — 5 sizes only: 10, 16, 26, 42, 68
+     Each step is the next Fibonacci number (ratio → φ) */
+  --text-xs: var(--fib-4);    /* 10px — captions, labels */
+  --text-sm: var(--fib-4);    /* 10px — alias for xs */
+  --text-base: var(--fib-5);  /* 16px — body text */
+  --text-lg: var(--fib-6);    /* 26px — h1, page titles */
+  --text-xl: var(--fib-6);    /* 26px — alias for lg */
+  --text-2xl: var(--fib-7);   /* 42px — display only */
+  --text-3xl: var(--fib-8);   /* 68px — hero only */
+
+  /* Fibonacci line-heights: size × φ = next Fibonacci number */
+  --lh-xs: var(--fib-5);      /* 16px  (10 × 1.618 ≈ 16) */
+  --lh-sm: var(--fib-5);      /* 16px */
+  --lh-base: var(--fib-6);    /* 26px  (16 × 1.618 ≈ 26) */
+  --lh-lg: var(--fib-7);      /* 42px  (26 × 1.618 ≈ 42) */
+  --lh-xl: var(--fib-7);      /* 42px */
+  --lh-2xl: var(--fib-8);     /* 68px  (42 × 1.618 ≈ 68) */
+  --lh-3xl: var(--fib-9);     /* 110px (68 × 1.618 ≈ 110) */
+}

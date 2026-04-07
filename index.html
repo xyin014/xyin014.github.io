@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xizhe Yin's Homepage</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="fib-wrapper" data-banner="home">
+
+    <!-- Navigation -->
+    <nav class="nav">
+      <div class="nav-brand"><a href="./">Xizhe Yin</a></div>
+      <div class="nav-links">
+        <a href="publication/">Publications</a>
+        <a href="services/">Services</a>
+        <a href="misc/">Misc</a>
+      </div>
+      <div class="nav-end">
+        <a href="about/">About</a>
+      </div>
+      <button class="nav-hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <div class="nav-mobile">
+      <a href="./" class="active">Home</a>
+      <a href="publication/">Publications</a>
+      <a href="services/">Services</a>
+      <a href="misc/">Misc</a>
+      <a href="about/">About</a>
+    </div>
+
+    <hr class="golden-bands">
+
+    <!-- Hero -->
+    <div class="hero">
+      <p class="subtitle">Ph.D. in Computer Science</p>
+    </div>
+
+    <!-- Two-column layout -->
+    <div class="fib-two-col">
+
+      <!-- Main column (466px) -->
+      <main>
+        <section class="section">
+          <h2 class="section-title">Biography</h2>
+          <p>
+            I received my Ph.D. in Computer Science from the University of California, Riverside, where I was advised by Prof. <a class="advisor-link" href="https://www.cs.ucr.edu/~gupta/">Rajiv Gupta</a> and
+            Prof. <a class="advisor-link" href="https://www.cs.ucr.edu/~zhijia/">Zhijia Zhao</a>.
+            My research interests include computer systems, parallel/high-performance computing, and compiler optimization.
+
+
+      </main>
+
+      <!-- Sidebar (288px) -->
+      <aside class="sidebar">
+        <div class="sidebar-section">
+          <h3>Contact</h3>
+          <div class="contact-item email-protected" data-u="xyin014" data-d="ucr.edu"></div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Education</h3>
+          <ul class="edu-list">
+            <li>
+              <span class="edu-degree">Ph.D. in Computer Science</span>
+              <span class="edu-school">UC Riverside</span>
+            </li>
+            <li>
+              <span class="edu-degree">M.S. in ECE</span>
+              <span class="edu-school">Western Ontario, Canada</span>
+            </li>
+            <li>
+              <span class="edu-degree">B.E. in EE</span>
+              <span class="edu-school">USTC, China</span>
+            </li>
+          </ul>
+        </div>
+
+      </aside>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer"></footer>
+
+  </div>
+
+  <script src="js/nav.js"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EMQKKVCNWC"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-EMQKKVCNWC');
+  </script>
+</body>
+</html>

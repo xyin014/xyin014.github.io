@@ -1,0 +1,70 @@
+.fib-wrapper {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding: 0;  /* Schmidhuber: no left margins for left-justified text */
+}
+
+.fib-two-col {
+  display: grid;
+  grid-template-columns: var(--col-main) var(--col-side);
+  gap: var(--col-gap);
+  align-items: start;
+}
+
+.fib-single-col {
+  max-width: var(--content-width);
+}
+
+.fib-narrow-col {
+  max-width: var(--col-main);
+}
+
+/*
+ * Recursive Fibonacci subdivision classes.
+ *
+ * 754 = 466 + 288        (level 0: two-col)
+ * 466 = 288 + 178        (level 1: within main)
+ * 288 = 178 + 110        (level 2: within sidebar or sub-main)
+ * 178 = 110 + 68         (level 3)
+ *
+ * Use these for fractal golden-ratio splits within any column.
+ */
+
+/* Level 1: 466 → 288 + 178 */
+.fib-sub-1 {
+  display: grid;
+  grid-template-columns: var(--fib-11) var(--fib-10);  /* 288 + 178 */
+  gap: 0;
+  align-items: start;
+}
+
+/* Level 2: 288 → 178 + 110 */
+.fib-sub-2 {
+  display: grid;
+  grid-template-columns: var(--fib-10) var(--fib-9);   /* 178 + 110 */
+  gap: 0;
+  align-items: start;
+}
+
+/* Level 3: 178 → 110 + 68 */
+.fib-sub-3 {
+  display: grid;
+  grid-template-columns: var(--fib-9) var(--fib-8);    /* 110 + 68 */
+  gap: 0;
+  align-items: start;
+}
+
+/* Fibonacci-sized max-width helpers */
+.fib-w-754 { max-width: var(--fib-13); }
+.fib-w-466 { max-width: var(--fib-12); }
+.fib-w-288 { max-width: var(--fib-11); }
+.fib-w-178 { max-width: var(--fib-10); }
+.fib-w-110 { max-width: var(--fib-9); }
+.fib-w-68  { max-width: var(--fib-8); }
+
+/* Fibonacci-sized height helpers (for images, cards) */
+.fib-h-466 { height: var(--fib-12); }
+.fib-h-288 { height: var(--fib-11); }
+.fib-h-178 { height: var(--fib-10); }
+.fib-h-110 { height: var(--fib-9); }
+.fib-h-68  { height: var(--fib-8); }

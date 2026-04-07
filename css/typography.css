@@ -1,0 +1,96 @@
+@import url('https://rsms.me/inter/inter.css');
+
+h1 {
+  font-size: var(--text-xl);
+  line-height: var(--lh-xl);
+  font-weight: 700;
+  margin-bottom: var(--fib-6);
+  color: var(--color-text);
+  padding-bottom: var(--fib-3);
+  border-bottom: var(--fib-1) solid var(--color-accent);
+  display: inline-block;
+}
+
+h2 {
+  font-size: var(--text-base);
+  line-height: var(--lh-base);
+  font-weight: 700;
+  margin-bottom: var(--fib-5);
+}
+
+h3 {
+  font-size: var(--text-base);
+  line-height: var(--lh-base);
+  font-weight: 600;
+  margin-bottom: var(--fib-4);
+}
+
+h4 {
+  font-size: var(--text-xs);
+  line-height: var(--lh-xs);
+  font-weight: 600;
+  margin-bottom: var(--fib-3);
+}
+
+p {
+  margin-bottom: var(--fib-5);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Display name — elegant, not enormous */
+.display-name {
+  font-family: var(--font-display);
+  font-size: var(--text-2xl);
+  line-height: var(--lh-2xl);
+  font-weight: 800;
+  color: var(--color-text);
+}
+
+.subtitle {
+  font-size: var(--text-base);
+  line-height: var(--lh-base);
+  color: var(--color-muted);
+  margin-top: var(--fib-3);
+}
+
+small, .text-sm {
+  font-size: var(--text-sm);
+  line-height: var(--lh-sm);
+}
+
+.text-xs {
+  font-size: var(--text-xs);
+  line-height: var(--lh-xs);
+}
+
+.text-muted {
+  color: var(--color-muted);
+}
+
+/* Subpage h1: lighter weight for a quieter feel, same 26px size. */
+[data-page] h1 {
+  font-weight: 500;
+  color: #3F3F55;  /* between --color-text and --color-muted */
+}
+
+/* Page-specific h1 underline — match nav tab color */
+[data-page="publications"] h1 { border-bottom-color: var(--color-nav-1); }
+[data-page="services"]     h1 { border-bottom-color: var(--color-nav-2); }
+[data-page="misc"]         h1 { border-bottom-color: var(--color-nav-3); }
+[data-page="about"]        h1 { border-bottom-color: var(--color-nav-4); }
+
+/* Section titles — uppercase small caps, tracked, with a warm accent border */
+.section-title {
+  font-size: var(--text-xs);
+  line-height: var(--lh-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: var(--fib-2);
+  color: var(--color-muted);
+  margin-bottom: var(--fib-5);
+  padding-bottom: var(--fib-3);
+  border-bottom: var(--fib-1) solid var(--color-border);
+}
